@@ -1,0 +1,85 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: url(images/bg-pattern-desktop.svg);
+  background-repeat: repeat-x;
+}
+
+.page {
+  display: flex;
+  position: relative;
+}
+
+.left-part-page, .image {
+  width: 100%;
+}
+
+.header-image {
+  position: absolute;
+  top: -30px;
+}
+
+.info {
+  width: 70%;
+  padding: 35px 100px;
+  position: absolute;
+  top: 100px;
+}
+
+.info h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 600;
+  width: 220px;
+  margin-bottom: 20px;
+  letter-spacing: .7rem;
+}
+
+.title {
+  font-style: normal;
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+.info p {
+  color: hsl(0, 36%, 70%);
+  width: 450px;
+  line-height: 25px;
+}
+
+form {
+  position: relative;
+  max-width: 436px;
+}
+
+form input {
+  width: 400px;
+  padding: 17px;
+  margin-top: 15px;
+  border: 1px solid hsl(0, 23%, 79%);
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: hsl(0, 36%, 70%);
+}
+
+form button {
+  background: linear-gradient(90deg, hsl(0, 96%, 89%), hsl(0, 91%, 73%));
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  height: 52px;
+  width: 90px;
+}
+
+.right-part-page {
+  width: 60%;
+}
