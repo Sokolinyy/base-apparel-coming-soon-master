@@ -123,6 +123,10 @@
     background-size: auto;
   }
 
+  .page {
+    font-size: 17px;
+  }
+
   .right-part-page {
     position: absolute;
   }
