@@ -116,6 +116,10 @@
     display: none;
   }
 
+  .attribution {
+    display: flex;
+    text-align: center;
+  }
 @media (max-width: 510px) {
   body {
     width: 500px;
