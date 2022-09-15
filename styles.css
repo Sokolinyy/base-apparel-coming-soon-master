@@ -117,8 +117,9 @@
   }
 
   .attribution {
-    display: flex;
-    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 10px;
   }
 @media (max-width: 510px) {
   body {
@@ -150,5 +151,11 @@
 
   .info p {
     max-width: 100%;
+  }
+
+  .attribution {
+    display: block;
+    position: absolute;
+    top: 10px;
   }
 }
