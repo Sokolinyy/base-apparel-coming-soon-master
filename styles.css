@@ -65,6 +65,7 @@
     border: 1px solid hsl(0, 23%, 79%);
     border-radius: 30px;
     background-color: transparent;
+    margin-bottom: 13px;
   }
   
   input:focus {
@@ -75,7 +76,7 @@
     color: hsl(0, 36%, 70%);
   }
   
-  .button {
+  #button {
     background: linear-gradient(90deg, hsl(0, 96%, 89%), hsl(0, 91%, 73%));
     cursor: pointer;
     border: none;
@@ -87,11 +88,24 @@
     width: 90px;
   }
 
-  .button:hover {
+  #button:hover {
     background: linear-gradient(90deg, hsl(0, 100%, 89%), hsl(0, 77%, 85%));
     box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.1);
   }
   
+  #error-icon {
+    position: absolute;
+    top: 28px;
+    right: 100px;
+    display: none;
+  }
+
+  #error-text {
+    color: hsl(0, 91%, 73%);
+    margin-left: 12px;
+    display: none;
+  }
+
   .right-part-page {
     width: 60%;
   }
