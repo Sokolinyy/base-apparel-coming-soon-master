@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.background-image img {
+  max-width: 80%;
+}
+
+main {
+  position: relative;
+  display: flex;
+}
+
+.card-image {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  left: 160px;
+
+}
+
+#card-front-info {
+	position: absolute;
+  width: 87%;
+	top: 180px;
+	left: 25px;
+	color: rgba(255, 255, 255, 0.703);
+}
+
+.circle {
+  position: absolute;
+  top: -125px;
+  display: flex;
+}
+
+.circle-1 {
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.circle-2 {
+  border: 1px solid rgba(255, 255, 255, 0.869);
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin: auto 10px;
+}
+
+#card-number-image {
+  position: absolute;
+  top: -45px;
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.card-name-date-image, p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.card-front, .card-back {
+	position: relative;
+  max-width: 350px;
+  padding-top: 30px;
+}
+
+.card-back {
+  position: relative;
+  left: 60px;
+}
+
+#card-back-info {
+  position: absolute;
+  color: white;
+  bottom: 87px;
+  right: -10px;
+}
+
+.form-container {
+  margin: auto auto;
+}
+
+.form-container input {
+  margin: 8px 3px;
+  padding: 7px;
+  width: 270px;
+  border-radius: 5px;
+  border: 1px solid rgb(218, 218, 218);
+  outline: none;
+}
+
+.form-container input::placeholder {
+  color: rgb(164, 162, 162);
+  font-size: 15px;
+}
+
+.form-item {
+  max-width: 150px;
+}
+
+.form-item, .form-item-date {
+  margin: 20px;
+  text-align: left;
+}
+
+.form-item-date > input {
+  max-width: 50px;
+}
+
+#card-date-month, #card-date-year {
+  width: 40px;
+  font-size: 13px;
+}
+
+#card-date-cvc {
+  margin-left: 15px;
+  max-width: 27%;
+}
+
+button[type='submit'] {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	border-radius: 5px;
+	width: 280px;
+	margin-left: 30px;
+}
